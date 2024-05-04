@@ -1,0 +1,483 @@
+<?xml version="1.0"?>
+<dumps>
+  <platform name="win64" char_bit="8" short_bit="16" int_bit="32" long_bit="32" long_long_bit="64" pointer_bit="64"/>
+  <rawtokens>
+    <file index="0" name="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c"/>
+    <tok fileIndex="0" linenr="1" column="1" str="v"/>
+    <tok fileIndex="0" linenr="1" column="2" str="/*x * ass1q2.cx *x *  Created on: Aug 25, 2023x *      Author: DELLx */"/>
+    <tok fileIndex="0" linenr="7" column="1" str="#"/>
+    <tok fileIndex="0" linenr="7" column="2" str="include"/>
+    <tok fileIndex="0" linenr="7" column="10" str="&lt;stdio.h&gt;"/>
+    <tok fileIndex="0" linenr="8" column="1" str="#"/>
+    <tok fileIndex="0" linenr="8" column="2" str="include"/>
+    <tok fileIndex="0" linenr="8" column="10" str="&lt;string.h&gt;"/>
+    <tok fileIndex="0" linenr="9" column="1" str="struct"/>
+    <tok fileIndex="0" linenr="9" column="8" str="SComplex"/>
+    <tok fileIndex="0" linenr="9" column="16" str="{"/>
+    <tok fileIndex="0" linenr="10" column="2" str="float"/>
+    <tok fileIndex="0" linenr="10" column="8" str="m_R"/>
+    <tok fileIndex="0" linenr="10" column="11" str=";"/>
+    <tok fileIndex="0" linenr="11" column="2" str="float"/>
+    <tok fileIndex="0" linenr="11" column="8" str="m_I"/>
+    <tok fileIndex="0" linenr="11" column="11" str=";"/>
+    <tok fileIndex="0" linenr="12" column="1" str="}"/>
+    <tok fileIndex="0" linenr="12" column="2" str=";"/>
+    <tok fileIndex="0" linenr="13" column="1" str="struct"/>
+    <tok fileIndex="0" linenr="13" column="8" str="SComplex"/>
+    <tok fileIndex="0" linenr="13" column="17" str="Addcomplex"/>
+    <tok fileIndex="0" linenr="13" column="27" str="("/>
+    <tok fileIndex="0" linenr="13" column="28" str="struct"/>
+    <tok fileIndex="0" linenr="13" column="35" str="SComplex"/>
+    <tok fileIndex="0" linenr="13" column="44" str="A"/>
+    <tok fileIndex="0" linenr="13" column="45" str=","/>
+    <tok fileIndex="0" linenr="13" column="46" str="struct"/>
+    <tok fileIndex="0" linenr="13" column="53" str="SComplex"/>
+    <tok fileIndex="0" linenr="13" column="62" str="B"/>
+    <tok fileIndex="0" linenr="13" column="63" str=")"/>
+    <tok fileIndex="0" linenr="14" column="1" str="{"/>
+    <tok fileIndex="0" linenr="15" column="2" str="struct"/>
+    <tok fileIndex="0" linenr="15" column="9" str="SComplex"/>
+    <tok fileIndex="0" linenr="15" column="18" str="R"/>
+    <tok fileIndex="0" linenr="15" column="19" str=";"/>
+    <tok fileIndex="0" linenr="16" column="2" str="R"/>
+    <tok fileIndex="0" linenr="16" column="3" str="."/>
+    <tok fileIndex="0" linenr="16" column="4" str="m_R"/>
+    <tok fileIndex="0" linenr="16" column="7" str="="/>
+    <tok fileIndex="0" linenr="16" column="8" str="A"/>
+    <tok fileIndex="0" linenr="16" column="9" str="."/>
+    <tok fileIndex="0" linenr="16" column="10" str="m_R"/>
+    <tok fileIndex="0" linenr="16" column="13" str="+"/>
+    <tok fileIndex="0" linenr="16" column="14" str="B"/>
+    <tok fileIndex="0" linenr="16" column="15" str="."/>
+    <tok fileIndex="0" linenr="16" column="16" str="m_R"/>
+    <tok fileIndex="0" linenr="16" column="19" str=";"/>
+    <tok fileIndex="0" linenr="17" column="2" str="R"/>
+    <tok fileIndex="0" linenr="17" column="3" str="."/>
+    <tok fileIndex="0" linenr="17" column="4" str="m_I"/>
+    <tok fileIndex="0" linenr="17" column="7" str="="/>
+    <tok fileIndex="0" linenr="17" column="8" str="A"/>
+    <tok fileIndex="0" linenr="17" column="9" str="."/>
+    <tok fileIndex="0" linenr="17" column="10" str="m_I"/>
+    <tok fileIndex="0" linenr="17" column="13" str="+"/>
+    <tok fileIndex="0" linenr="17" column="14" str="B"/>
+    <tok fileIndex="0" linenr="17" column="15" str="."/>
+    <tok fileIndex="0" linenr="17" column="16" str="m_I"/>
+    <tok fileIndex="0" linenr="17" column="19" str=";"/>
+    <tok fileIndex="0" linenr="18" column="2" str="return"/>
+    <tok fileIndex="0" linenr="18" column="9" str="R"/>
+    <tok fileIndex="0" linenr="18" column="10" str=";"/>
+    <tok fileIndex="0" linenr="19" column="1" str="}"/>
+    <tok fileIndex="0" linenr="20" column="1" str="struct"/>
+    <tok fileIndex="0" linenr="20" column="8" str="SComplex"/>
+    <tok fileIndex="0" linenr="20" column="17" str="ReadComplex"/>
+    <tok fileIndex="0" linenr="20" column="28" str="("/>
+    <tok fileIndex="0" linenr="20" column="29" str="char"/>
+    <tok fileIndex="0" linenr="20" column="34" str="name"/>
+    <tok fileIndex="0" linenr="20" column="38" str="["/>
+    <tok fileIndex="0" linenr="20" column="39" str="]"/>
+    <tok fileIndex="0" linenr="20" column="40" str=")"/>
+    <tok fileIndex="0" linenr="21" column="1" str="{"/>
+    <tok fileIndex="0" linenr="22" column="2" str="struct"/>
+    <tok fileIndex="0" linenr="22" column="9" str="SComplex"/>
+    <tok fileIndex="0" linenr="22" column="18" str="C"/>
+    <tok fileIndex="0" linenr="22" column="19" str=";"/>
+    <tok fileIndex="0" linenr="23" column="2" str="printf"/>
+    <tok fileIndex="0" linenr="23" column="8" str="("/>
+    <tok fileIndex="0" linenr="23" column="9" str="&quot;Enter %s complex value: &quot;"/>
+    <tok fileIndex="0" linenr="23" column="35" str=","/>
+    <tok fileIndex="0" linenr="23" column="36" str="name"/>
+    <tok fileIndex="0" linenr="23" column="40" str=")"/>
+    <tok fileIndex="0" linenr="23" column="41" str=";"/>
+    <tok fileIndex="0" linenr="24" column="2" str="fflush"/>
+    <tok fileIndex="0" linenr="24" column="8" str="("/>
+    <tok fileIndex="0" linenr="24" column="9" str="stdout"/>
+    <tok fileIndex="0" linenr="24" column="15" str=")"/>
+    <tok fileIndex="0" linenr="24" column="16" str=";"/>
+    <tok fileIndex="0" linenr="25" column="2" str="scanf"/>
+    <tok fileIndex="0" linenr="25" column="7" str="("/>
+    <tok fileIndex="0" linenr="25" column="8" str="&quot;%f %f&quot;"/>
+    <tok fileIndex="0" linenr="25" column="15" str=","/>
+    <tok fileIndex="0" linenr="25" column="16" str="&amp;"/>
+    <tok fileIndex="0" linenr="25" column="17" str="C"/>
+    <tok fileIndex="0" linenr="25" column="18" str="."/>
+    <tok fileIndex="0" linenr="25" column="19" str="m_R"/>
+    <tok fileIndex="0" linenr="25" column="22" str=","/>
+    <tok fileIndex="0" linenr="25" column="23" str="&amp;"/>
+    <tok fileIndex="0" linenr="25" column="24" str="C"/>
+    <tok fileIndex="0" linenr="25" column="25" str="."/>
+    <tok fileIndex="0" linenr="25" column="26" str="m_I"/>
+    <tok fileIndex="0" linenr="25" column="29" str=")"/>
+    <tok fileIndex="0" linenr="25" column="30" str=";"/>
+    <tok fileIndex="0" linenr="26" column="2" str="return"/>
+    <tok fileIndex="0" linenr="26" column="9" str="C"/>
+    <tok fileIndex="0" linenr="26" column="10" str=";"/>
+    <tok fileIndex="0" linenr="27" column="1" str="}"/>
+    <tok fileIndex="0" linenr="28" column="1" str="void"/>
+    <tok fileIndex="0" linenr="28" column="6" str="printComplex"/>
+    <tok fileIndex="0" linenr="28" column="18" str="("/>
+    <tok fileIndex="0" linenr="28" column="19" str="char"/>
+    <tok fileIndex="0" linenr="28" column="24" str="name"/>
+    <tok fileIndex="0" linenr="28" column="28" str="["/>
+    <tok fileIndex="0" linenr="28" column="29" str="]"/>
+    <tok fileIndex="0" linenr="28" column="30" str=","/>
+    <tok fileIndex="0" linenr="28" column="31" str="struct"/>
+    <tok fileIndex="0" linenr="28" column="38" str="SComplex"/>
+    <tok fileIndex="0" linenr="28" column="47" str="C"/>
+    <tok fileIndex="0" linenr="28" column="48" str=")"/>
+    <tok fileIndex="0" linenr="29" column="1" str="{"/>
+    <tok fileIndex="0" linenr="30" column="2" str="printf"/>
+    <tok fileIndex="0" linenr="30" column="8" str="("/>
+    <tok fileIndex="0" linenr="30" column="9" str="&quot;%s=(%lf)+(%lf)j&quot;"/>
+    <tok fileIndex="0" linenr="30" column="26" str=","/>
+    <tok fileIndex="0" linenr="30" column="27" str="name"/>
+    <tok fileIndex="0" linenr="30" column="31" str=","/>
+    <tok fileIndex="0" linenr="30" column="32" str="C"/>
+    <tok fileIndex="0" linenr="30" column="33" str="."/>
+    <tok fileIndex="0" linenr="30" column="34" str="m_R"/>
+    <tok fileIndex="0" linenr="30" column="37" str=","/>
+    <tok fileIndex="0" linenr="30" column="38" str="C"/>
+    <tok fileIndex="0" linenr="30" column="39" str="."/>
+    <tok fileIndex="0" linenr="30" column="40" str="m_I"/>
+    <tok fileIndex="0" linenr="30" column="43" str=")"/>
+    <tok fileIndex="0" linenr="30" column="44" str=";"/>
+    <tok fileIndex="0" linenr="31" column="1" str="}"/>
+    <tok fileIndex="0" linenr="32" column="1" str="int"/>
+    <tok fileIndex="0" linenr="32" column="5" str="main"/>
+    <tok fileIndex="0" linenr="32" column="9" str="("/>
+    <tok fileIndex="0" linenr="32" column="10" str=")"/>
+    <tok fileIndex="0" linenr="32" column="11" str="{"/>
+    <tok fileIndex="0" linenr="33" column="2" str="struct"/>
+    <tok fileIndex="0" linenr="33" column="9" str="SComplex"/>
+    <tok fileIndex="0" linenr="33" column="18" str="X"/>
+    <tok fileIndex="0" linenr="33" column="19" str=","/>
+    <tok fileIndex="0" linenr="33" column="20" str="Y"/>
+    <tok fileIndex="0" linenr="33" column="21" str=","/>
+    <tok fileIndex="0" linenr="33" column="22" str="Z"/>
+    <tok fileIndex="0" linenr="33" column="23" str=";"/>
+    <tok fileIndex="0" linenr="34" column="2" str="X"/>
+    <tok fileIndex="0" linenr="34" column="3" str="="/>
+    <tok fileIndex="0" linenr="34" column="4" str="ReadComplex"/>
+    <tok fileIndex="0" linenr="34" column="15" str="("/>
+    <tok fileIndex="0" linenr="34" column="16" str="&quot;X&quot;"/>
+    <tok fileIndex="0" linenr="34" column="19" str=")"/>
+    <tok fileIndex="0" linenr="34" column="20" str=";"/>
+    <tok fileIndex="0" linenr="35" column="2" str="Y"/>
+    <tok fileIndex="0" linenr="35" column="3" str="="/>
+    <tok fileIndex="0" linenr="35" column="4" str="ReadComplex"/>
+    <tok fileIndex="0" linenr="35" column="15" str="("/>
+    <tok fileIndex="0" linenr="35" column="16" str="&quot;Y&quot;"/>
+    <tok fileIndex="0" linenr="35" column="19" str=")"/>
+    <tok fileIndex="0" linenr="35" column="20" str=";"/>
+    <tok fileIndex="0" linenr="36" column="2" str="Z"/>
+    <tok fileIndex="0" linenr="36" column="3" str="="/>
+    <tok fileIndex="0" linenr="36" column="4" str="Addcomplex"/>
+    <tok fileIndex="0" linenr="36" column="14" str="("/>
+    <tok fileIndex="0" linenr="36" column="15" str="X"/>
+    <tok fileIndex="0" linenr="36" column="16" str=","/>
+    <tok fileIndex="0" linenr="36" column="17" str="Y"/>
+    <tok fileIndex="0" linenr="36" column="18" str=")"/>
+    <tok fileIndex="0" linenr="36" column="19" str=";"/>
+    <tok fileIndex="0" linenr="37" column="2" str="printComplex"/>
+    <tok fileIndex="0" linenr="37" column="14" str="("/>
+    <tok fileIndex="0" linenr="37" column="15" str="&quot;Z&quot;"/>
+    <tok fileIndex="0" linenr="37" column="18" str=","/>
+    <tok fileIndex="0" linenr="37" column="19" str="Z"/>
+    <tok fileIndex="0" linenr="37" column="20" str=")"/>
+    <tok fileIndex="0" linenr="37" column="21" str=";"/>
+    <tok fileIndex="0" linenr="38" column="1" str="}"/>
+  </rawtokens>
+  <suppressions>
+  </suppressions>
+<dump cfg="">
+  <standards>
+    <c version="c11"/>
+    <cpp version="c++20"/>
+  </standards>
+  <directivelist>
+    <directive file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="7" str="#include &lt;stdio.h&gt;"/>
+    <directive file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="8" str="#include &lt;string.h&gt;"/>
+  </directivelist>
+  <tokenlist>
+    <token id="0000027EBD12D570" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="1" column="1" str="v" scope="0000027EBD03F140" type="name"/>
+    <token id="0000027EBD12D990" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="9" column="1" str="struct" scope="0000027EBD03F140" type="name"/>
+    <token id="0000027EBD12D810" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="9" column="8" str="SComplex" scope="0000027EBD03F140" type="name" type-scope="0000027EBD03F8B0"/>
+    <token id="0000027EBD12DE70" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="9" column="16" str="{" scope="0000027EBD03F8B0" link="0000027EBD12D8D0"/>
+    <token id="0000027EBD12D450" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="10" column="2" str="float" scope="0000027EBD03F8B0" type="name"/>
+    <token id="0000027EBD12D1B0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="10" column="8" str="m_R" scope="0000027EBD03F8B0" type="name" varId="1" variable="0000027EBD780AB0" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD12D4B0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="10" column="11" str=";" scope="0000027EBD03F8B0"/>
+    <token id="0000027EBD12D270" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="11" column="2" str="float" scope="0000027EBD03F8B0" type="name"/>
+    <token id="0000027EBD12D2D0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="11" column="8" str="m_I" scope="0000027EBD03F8B0" type="name" varId="2" variable="0000027EBD780260" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD12D870" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="11" column="11" str=";" scope="0000027EBD03F8B0"/>
+    <token id="0000027EBD12D8D0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="12" column="1" str="}" scope="0000027EBD03F8B0" link="0000027EBD12DE70"/>
+    <token id="0000027EBD12D330" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="12" column="2" str=";" scope="0000027EBD03F140"/>
+    <token id="0000027EBD12D9F0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="13" column="1" str="struct" scope="0000027EBD03F140" type="name"/>
+    <token id="0000027EBD12D630" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="13" column="8" str="SComplex" scope="0000027EBD03F140" type="name" type-scope="0000027EBD03F8B0"/>
+    <token id="0000027EBD12D930" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="13" column="17" str="Addcomplex" scope="0000027EBD03F140" type="name" function="0000027EBD0ABF40"/>
+    <token id="0000027EBD12D5D0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="13" column="27" str="(" scope="0000027EBD03F140" link="0000027EBD12D750" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD12DD50" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="13" column="28" str="struct" scope="0000027EBD03F140" type="name"/>
+    <token id="0000027EBD12DCF0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="13" column="35" str="SComplex" scope="0000027EBD03F140" type="name" type-scope="0000027EBD03F8B0"/>
+    <token id="0000027EBD12DBD0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="13" column="44" str="A" scope="0000027EBD03F140" type="name" varId="3" variable="0000027EBD77FE00" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD12DDB0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="13" column="45" str="," scope="0000027EBD03F140"/>
+    <token id="0000027EBD12DE10" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="13" column="46" str="struct" scope="0000027EBD03F140" type="name"/>
+    <token id="0000027EBD12DC30" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="13" column="53" str="SComplex" scope="0000027EBD03F140" type="name" type-scope="0000027EBD03F8B0"/>
+    <token id="0000027EBD12DC90" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="13" column="62" str="B" scope="0000027EBD03F140" type="name" varId="4" variable="0000027EBD780340" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD12D750" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="13" column="63" str=")" scope="0000027EBD03F140" link="0000027EBD12D5D0"/>
+    <token id="0000027EBD12D7B0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="14" column="1" str="{" scope="0000027EBD03FBE0" link="0000027EBD5EDA50"/>
+    <token id="0000027EBD12DED0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="15" column="2" str="struct" scope="0000027EBD03FBE0" type="name"/>
+    <token id="0000027EBD12D3F0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="15" column="9" str="SComplex" scope="0000027EBD03FBE0" type="name" type-scope="0000027EBD03F8B0"/>
+    <token id="0000027EBD5ED330" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="15" column="18" str="R" scope="0000027EBD03FBE0" type="name" varId="5" variable="0000027EBD77FD20" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD5ED810" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="15" column="19" str=";" scope="0000027EBD03FBE0"/>
+    <token id="0000027EBD5EDED0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="16" column="2" str="R" scope="0000027EBD03FBE0" type="name" varId="5" variable="0000027EBD77FD20" values="0000027EBD0AD160" astParent="0000027EBD5EDC30" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD5EDC30" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="16" column="3" str="." scope="0000027EBD03FBE0" astParent="0000027EBD5ED930" astOperand1="0000027EBD5EDED0" astOperand2="0000027EBD5ED7B0" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD5ED7B0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="16" column="4" str="m_R" scope="0000027EBD03FBE0" type="name" varId="6" variable="0000027EBD780AB0" values="0000027EBD0ACFE0" astParent="0000027EBD5EDC30" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD5ED930" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="16" column="7" str="=" scope="0000027EBD03FBE0" type="op" isAssignmentOp="true" astOperand1="0000027EBD5EDC30" astOperand2="0000027EBD5ED3F0" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD5ED8D0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="16" column="8" str="A" scope="0000027EBD03FBE0" type="name" varId="3" variable="0000027EBD77FE00" astParent="0000027EBD5EDCF0" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD5EDCF0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="16" column="9" str="." scope="0000027EBD03FBE0" astParent="0000027EBD5ED3F0" astOperand1="0000027EBD5ED8D0" astOperand2="0000027EBD5EDF30" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD5EDF30" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="16" column="10" str="m_R" scope="0000027EBD03FBE0" type="name" varId="7" variable="0000027EBD780AB0" astParent="0000027EBD5EDCF0" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD5ED3F0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="16" column="13" str="+" scope="0000027EBD03FBE0" type="op" isArithmeticalOp="true" astParent="0000027EBD5ED930" astOperand1="0000027EBD5EDCF0" astOperand2="0000027EBD5EDE10" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD5ED5D0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="16" column="14" str="B" scope="0000027EBD03FBE0" type="name" varId="4" variable="0000027EBD780340" astParent="0000027EBD5EDE10" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD5EDE10" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="16" column="15" str="." scope="0000027EBD03FBE0" astParent="0000027EBD5ED3F0" astOperand1="0000027EBD5ED5D0" astOperand2="0000027EBD5ED6F0" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD5ED6F0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="16" column="16" str="m_R" scope="0000027EBD03FBE0" type="name" varId="8" variable="0000027EBD780AB0" astParent="0000027EBD5EDE10" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD5EDF90" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="16" column="19" str=";" scope="0000027EBD03FBE0"/>
+    <token id="0000027EBD5EE0B0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="17" column="2" str="R" scope="0000027EBD03FBE0" type="name" varId="5" variable="0000027EBD77FD20" astParent="0000027EBD5ED2D0" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD5ED2D0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="17" column="3" str="." scope="0000027EBD03FBE0" astParent="0000027EBD5ED510" astOperand1="0000027EBD5EE0B0" astOperand2="0000027EBD5ED4B0" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD5ED4B0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="17" column="4" str="m_I" scope="0000027EBD03FBE0" type="name" varId="9" variable="0000027EBD780260" astParent="0000027EBD5ED2D0" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD5ED510" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="17" column="7" str="=" scope="0000027EBD03FBE0" type="op" isAssignmentOp="true" astOperand1="0000027EBD5ED2D0" astOperand2="0000027EBD5EDC90" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD5EE110" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="17" column="8" str="A" scope="0000027EBD03FBE0" type="name" varId="3" variable="0000027EBD77FE00" astParent="0000027EBD5ED630" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD5ED630" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="17" column="9" str="." scope="0000027EBD03FBE0" astParent="0000027EBD5EDC90" astOperand1="0000027EBD5EE110" astOperand2="0000027EBD5EE170" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD5EE170" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="17" column="10" str="m_I" scope="0000027EBD03FBE0" type="name" varId="10" variable="0000027EBD780260" astParent="0000027EBD5ED630" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD5EDC90" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="17" column="13" str="+" scope="0000027EBD03FBE0" type="op" isArithmeticalOp="true" astParent="0000027EBD5ED510" astOperand1="0000027EBD5ED630" astOperand2="0000027EBD5ED450" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD5ED690" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="17" column="14" str="B" scope="0000027EBD03FBE0" type="name" varId="4" variable="0000027EBD780340" astParent="0000027EBD5ED450" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD5ED450" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="17" column="15" str="." scope="0000027EBD03FBE0" astParent="0000027EBD5EDC90" astOperand1="0000027EBD5ED690" astOperand2="0000027EBD5EDFF0" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD5EDFF0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="17" column="16" str="m_I" scope="0000027EBD03FBE0" type="name" varId="11" variable="0000027EBD780260" astParent="0000027EBD5ED450" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD5ED870" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="17" column="19" str=";" scope="0000027EBD03FBE0"/>
+    <token id="0000027EBD5ED750" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="18" column="2" str="return" scope="0000027EBD03FBE0" type="name" astOperand1="0000027EBD5ED990" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD5ED990" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="18" column="9" str="R" scope="0000027EBD03FBE0" type="name" varId="5" variable="0000027EBD77FD20" astParent="0000027EBD5ED750" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD5ED9F0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="18" column="10" str=";" scope="0000027EBD03FBE0"/>
+    <token id="0000027EBD5EDA50" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="19" column="1" str="}" scope="0000027EBD03FBE0" link="0000027EBD12D7B0"/>
+    <token id="0000027EBD5EDB70" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="20" column="1" str="struct" scope="0000027EBD03F140" type="name"/>
+    <token id="0000027EBD5EDAB0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="20" column="8" str="SComplex" scope="0000027EBD03F140" type="name" type-scope="0000027EBD03F8B0"/>
+    <token id="0000027EBD5EE050" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="20" column="17" str="ReadComplex" scope="0000027EBD03F140" type="name" function="0000027EBD0AC3A0"/>
+    <token id="0000027EBD5ED270" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="20" column="28" str="(" scope="0000027EBD03F140" link="0000027EBD7FCAB0" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD5EDBD0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="20" column="29" str="char" scope="0000027EBD03F140" type="name"/>
+    <token id="0000027EBD5EDB10" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="20" column="34" str="name" scope="0000027EBD03F140" type="name" varId="12" variable="0000027EBD780500" astParent="0000027EBD5ED390" valueType-type="char" valueType-pointer="1" valueType-reference="None"/>
+    <token id="0000027EBD5ED390" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="20" column="38" str="[" scope="0000027EBD03F140" link="0000027EBD5EDE70" astOperand1="0000027EBD5EDB10" valueType-type="char" valueType-pointer="1" valueType-reference="None"/>
+    <token id="0000027EBD5EDE70" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="20" column="39" str="]" scope="0000027EBD03F140" link="0000027EBD5ED390"/>
+    <token id="0000027EBD7FCAB0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="20" column="40" str=")" scope="0000027EBD03F140" link="0000027EBD5ED270"/>
+    <token id="0000027EBD7FC330" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="21" column="1" str="{" scope="0000027EBD03F7A0" link="0000027EBD7FC6F0"/>
+    <token id="0000027EBD7FCCF0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="22" column="2" str="struct" scope="0000027EBD03F7A0" type="name"/>
+    <token id="0000027EBD7FC390" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="22" column="9" str="SComplex" scope="0000027EBD03F7A0" type="name" type-scope="0000027EBD03F8B0"/>
+    <token id="0000027EBD7FCB10" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="22" column="18" str="C" scope="0000027EBD03F7A0" type="name" varId="13" variable="0000027EBD780490" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD7FC750" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="22" column="19" str=";" scope="0000027EBD03F7A0"/>
+    <token id="0000027EBD7FC9F0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="23" column="2" str="printf" scope="0000027EBD03F7A0" type="name" astParent="0000027EBD7FC3F0"/>
+    <token id="0000027EBD7FC3F0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="23" column="8" str="(" scope="0000027EBD03F7A0" link="0000027EBD7FC450" astOperand1="0000027EBD7FC9F0" astOperand2="0000027EBD7FCB70" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-originalTypeName="int"/>
+    <token id="0000027EBD7FCE70" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="23" column="9" str="&quot;Enter %s complex value: &quot;" scope="0000027EBD03F7A0" type="string" strlen="24" values="0000027EBD0ACE80" astParent="0000027EBD7FCB70" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="0000027EBD7FCB70" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="23" column="35" str="," scope="0000027EBD03F7A0" astParent="0000027EBD7FC3F0" astOperand1="0000027EBD7FCE70" astOperand2="0000027EBD7FC150"/>
+    <token id="0000027EBD7FC150" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="23" column="36" str="name" scope="0000027EBD03F7A0" type="name" varId="12" variable="0000027EBD780500" values="0000027EBD0ACF60" astParent="0000027EBD7FCB70" valueType-type="char" valueType-pointer="1" valueType-reference="None"/>
+    <token id="0000027EBD7FC450" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="23" column="40" str=")" scope="0000027EBD03F7A0" link="0000027EBD7FC3F0"/>
+    <token id="0000027EBD7FCF30" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="23" column="41" str=";" scope="0000027EBD03F7A0"/>
+    <token id="0000027EBD7FC870" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="24" column="2" str="fflush" scope="0000027EBD03F7A0" type="name" astParent="0000027EBD7FC8D0"/>
+    <token id="0000027EBD7FC8D0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="24" column="8" str="(" scope="0000027EBD03F7A0" link="0000027EBD7FC0F0" astOperand1="0000027EBD7FC870" astOperand2="0000027EBD7FC4B0" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-originalTypeName="int"/>
+    <token id="0000027EBD7FC4B0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="24" column="9" str="stdout" scope="0000027EBD03F7A0" type="name" astParent="0000027EBD7FC8D0"/>
+    <token id="0000027EBD7FC0F0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="24" column="15" str=")" scope="0000027EBD03F7A0" link="0000027EBD7FC8D0"/>
+    <token id="0000027EBD7FC090" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="24" column="16" str=";" scope="0000027EBD03F7A0"/>
+    <token id="0000027EBD7FC030" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="25" column="2" str="scanf" scope="0000027EBD03F7A0" type="name" astParent="0000027EBD7FC1B0"/>
+    <token id="0000027EBD7FC1B0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="25" column="7" str="(" scope="0000027EBD03F7A0" link="0000027EBD7FC690" astOperand1="0000027EBD7FC030" astOperand2="0000027EBD7FCD50" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-originalTypeName="int"/>
+    <token id="0000027EBD7FC210" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="25" column="8" str="&quot;%f %f&quot;" scope="0000027EBD03F7A0" type="string" strlen="5" values="0000027EBD0ACCC0" astParent="0000027EBD7FC930" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="0000027EBD7FC930" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="25" column="15" str="," scope="0000027EBD03F7A0" astParent="0000027EBD7FCD50" astOperand1="0000027EBD7FC210" astOperand2="0000027EBD7FCED0"/>
+    <token id="0000027EBD7FCED0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="25" column="16" str="&amp;" scope="0000027EBD03F7A0" type="op" values="0000027EBD0ACB80" astParent="0000027EBD7FC930" astOperand1="0000027EBD7FC630" valueType-type="float" valueType-pointer="1" valueType-reference="None"/>
+    <token id="0000027EBD7FC510" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="25" column="17" str="C" scope="0000027EBD03F7A0" type="name" varId="13" variable="0000027EBD780490" values="0000027EBD0AD000" astParent="0000027EBD7FC630" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD7FC630" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="25" column="18" str="." scope="0000027EBD03F7A0" astParent="0000027EBD7FCED0" astOperand1="0000027EBD7FC510" astOperand2="0000027EBD7FCBD0" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD7FCBD0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="25" column="19" str="m_R" scope="0000027EBD03F7A0" type="name" varId="14" variable="0000027EBD780AB0" values="0000027EBD0AD1C0" astParent="0000027EBD7FC630" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD7FCD50" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="25" column="22" str="," scope="0000027EBD03F7A0" astParent="0000027EBD7FC1B0" astOperand1="0000027EBD7FC930" astOperand2="0000027EBD7FC990"/>
+    <token id="0000027EBD7FC990" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="25" column="23" str="&amp;" scope="0000027EBD03F7A0" type="op" values="0000027EBD0ACEA0" astParent="0000027EBD7FCD50" astOperand1="0000027EBD7FCA50" valueType-type="float" valueType-pointer="1" valueType-reference="None"/>
+    <token id="0000027EBD7FC270" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="25" column="24" str="C" scope="0000027EBD03F7A0" type="name" varId="13" variable="0000027EBD780490" astParent="0000027EBD7FCA50" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD7FCA50" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="25" column="25" str="." scope="0000027EBD03F7A0" astParent="0000027EBD7FC990" astOperand1="0000027EBD7FC270" astOperand2="0000027EBD7FCC30" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD7FCC30" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="25" column="26" str="m_I" scope="0000027EBD03F7A0" type="name" varId="15" variable="0000027EBD780260" astParent="0000027EBD7FCA50" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD7FC690" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="25" column="29" str=")" scope="0000027EBD03F7A0" link="0000027EBD7FC1B0"/>
+    <token id="0000027EBD7FC5D0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="25" column="30" str=";" scope="0000027EBD03F7A0"/>
+    <token id="0000027EBD7FC570" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="26" column="2" str="return" scope="0000027EBD03F7A0" type="name" astOperand1="0000027EBD7FCC90" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD7FCC90" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="26" column="9" str="C" scope="0000027EBD03F7A0" type="name" varId="13" variable="0000027EBD780490" astParent="0000027EBD7FC570" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD7FCDB0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="26" column="10" str=";" scope="0000027EBD03F7A0"/>
+    <token id="0000027EBD7FC6F0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="27" column="1" str="}" scope="0000027EBD03F7A0" link="0000027EBD7FC330"/>
+    <token id="0000027EBD7FC2D0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="28" column="1" str="void" scope="0000027EBD03F140" type="name"/>
+    <token id="0000027EBD7FCE10" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="28" column="6" str="printComplex" scope="0000027EBD03F140" type="name" function="0000027EBD0AC120"/>
+    <token id="0000027EBD7FC7B0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="28" column="18" str="(" scope="0000027EBD03F140" link="0000027EBD7FD040" valueType-type="void" valueType-reference="None"/>
+    <token id="0000027EBD7FC810" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="28" column="19" str="char" scope="0000027EBD03F140" type="name"/>
+    <token id="0000027EBD7FD220" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="28" column="24" str="name" scope="0000027EBD03F140" type="name" varId="16" variable="0000027EBD7803B0" astParent="0000027EBD7FDE80" valueType-type="char" valueType-pointer="1" valueType-reference="None"/>
+    <token id="0000027EBD7FDE80" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="28" column="28" str="[" scope="0000027EBD03F140" link="0000027EBD7FDA60" astParent="0000027EBD7FDBE0" astOperand1="0000027EBD7FD220" valueType-type="char" valueType-pointer="1" valueType-reference="None"/>
+    <token id="0000027EBD7FDA60" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="28" column="29" str="]" scope="0000027EBD03F140" link="0000027EBD7FDE80"/>
+    <token id="0000027EBD7FDBE0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="28" column="30" str="," scope="0000027EBD03F140" astOperand1="0000027EBD7FDE80" astOperand2="0000027EBD7FD6A0"/>
+    <token id="0000027EBD7FD640" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="28" column="31" str="struct" scope="0000027EBD03F140" type="name"/>
+    <token id="0000027EBD7FD880" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="28" column="38" str="SComplex" scope="0000027EBD03F140" type="name" type-scope="0000027EBD03F8B0"/>
+    <token id="0000027EBD7FD6A0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="28" column="47" str="C" scope="0000027EBD03F140" type="name" varId="17" variable="0000027EBD780570" astParent="0000027EBD7FDBE0" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD7FD040" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="28" column="48" str=")" scope="0000027EBD03F140" link="0000027EBD7FC7B0"/>
+    <token id="0000027EBD7FDCA0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="29" column="1" str="{" scope="0000027EBD03F250" link="0000027EBD7FD160"/>
+    <token id="0000027EBD7FD8E0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="30" column="2" str="printf" scope="0000027EBD03F250" type="name" astParent="0000027EBD7FD580"/>
+    <token id="0000027EBD7FD580" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="30" column="8" str="(" scope="0000027EBD03F250" link="0000027EBD7FD400" astOperand1="0000027EBD7FD8E0" astOperand2="0000027EBD7FD5E0" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-originalTypeName="int"/>
+    <token id="0000027EBD7FDB80" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="30" column="9" str="&quot;%s=(%lf)+(%lf)j&quot;" scope="0000027EBD03F250" type="string" strlen="15" values="0000027EBD0AD020" astParent="0000027EBD7FD3A0" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="0000027EBD7FD3A0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="30" column="26" str="," scope="0000027EBD03F250" astParent="0000027EBD7FDC40" astOperand1="0000027EBD7FDB80" astOperand2="0000027EBD7FD340"/>
+    <token id="0000027EBD7FD340" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="30" column="27" str="name" scope="0000027EBD03F250" type="name" varId="16" variable="0000027EBD7803B0" values="0000027EBD0ACCE0" astParent="0000027EBD7FD3A0" valueType-type="char" valueType-pointer="1" valueType-reference="None"/>
+    <token id="0000027EBD7FDC40" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="30" column="31" str="," scope="0000027EBD03F250" astParent="0000027EBD7FD5E0" astOperand1="0000027EBD7FD3A0" astOperand2="0000027EBD7FD460"/>
+    <token id="0000027EBD7FD1C0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="30" column="32" str="C" scope="0000027EBD03F250" type="name" varId="17" variable="0000027EBD780570" astParent="0000027EBD7FD460" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD7FD460" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="30" column="33" str="." scope="0000027EBD03F250" astParent="0000027EBD7FDC40" astOperand1="0000027EBD7FD1C0" astOperand2="0000027EBD7FDD00" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD7FDD00" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="30" column="34" str="m_R" scope="0000027EBD03F250" type="name" varId="18" variable="0000027EBD780AB0" astParent="0000027EBD7FD460" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD7FD5E0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="30" column="37" str="," scope="0000027EBD03F250" astParent="0000027EBD7FD580" astOperand1="0000027EBD7FDC40" astOperand2="0000027EBD7FDAC0"/>
+    <token id="0000027EBD7FDE20" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="30" column="38" str="C" scope="0000027EBD03F250" type="name" varId="17" variable="0000027EBD780570" astParent="0000027EBD7FDAC0" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD7FDAC0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="30" column="39" str="." scope="0000027EBD03F250" astParent="0000027EBD7FD5E0" astOperand1="0000027EBD7FDE20" astOperand2="0000027EBD7FD700" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD7FD700" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="30" column="40" str="m_I" scope="0000027EBD03F250" type="name" varId="19" variable="0000027EBD780260" astParent="0000027EBD7FDAC0" valueType-type="float" valueType-reference="None"/>
+    <token id="0000027EBD7FD400" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="30" column="43" str=")" scope="0000027EBD03F250" link="0000027EBD7FD580"/>
+    <token id="0000027EBD7FD4C0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="30" column="44" str=";" scope="0000027EBD03F250"/>
+    <token id="0000027EBD7FD160" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="31" column="1" str="}" scope="0000027EBD03F250" link="0000027EBD7FDCA0"/>
+    <token id="0000027EBD7FD2E0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="32" column="1" str="int" scope="0000027EBD03F140" type="name"/>
+    <token id="0000027EBD7FD100" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="32" column="5" str="main" scope="0000027EBD03F140" type="name" function="0000027EBD0AC4E0"/>
+    <token id="0000027EBD7FDD60" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="32" column="9" str="(" scope="0000027EBD03F140" link="0000027EBD7FDEE0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="0000027EBD7FDEE0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="32" column="10" str=")" scope="0000027EBD03F140" link="0000027EBD7FDD60"/>
+    <token id="0000027EBD7FDDC0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="32" column="11" str="{" scope="0000027EBD03F360" link="0000027EBD396F60"/>
+    <token id="0000027EBD7FD7C0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="33" column="2" str="struct" scope="0000027EBD03F360" type="name"/>
+    <token id="0000027EBD7FD520" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="33" column="9" str="SComplex" scope="0000027EBD03F360" type="name" type-scope="0000027EBD03F8B0"/>
+    <token id="0000027EBD7FD940" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="33" column="18" str="X" scope="0000027EBD03F360" type="name" varId="20" variable="0000027EBD77FFC0" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD7FD760" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="33" column="19" str=";" scope="0000027EBD03F360" isSplittedVarDeclComma="true"/>
+    <token id="0000027EBD396FC0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="33" column="2" str="struct" scope="0000027EBD03F360" type="name"/>
+    <token id="0000027EBD397140" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="33" column="9" str="SComplex" scope="0000027EBD03F360" type="name" type-scope="0000027EBD03F8B0"/>
+    <token id="0000027EBD7FD820" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="33" column="20" str="Y" scope="0000027EBD03F360" type="name" varId="21" variable="0000027EBD77FB60" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD7FDF40" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="33" column="21" str=";" scope="0000027EBD03F360" isSplittedVarDeclComma="true"/>
+    <token id="0000027EBD396960" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="33" column="2" str="struct" scope="0000027EBD03F360" type="name"/>
+    <token id="0000027EBD3970E0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="33" column="9" str="SComplex" scope="0000027EBD03F360" type="name" type-scope="0000027EBD03F8B0"/>
+    <token id="0000027EBD7FD9A0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="33" column="22" str="Z" scope="0000027EBD03F360" type="name" varId="22" variable="0000027EBD780B20" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD7FDB20" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="33" column="23" str=";" scope="0000027EBD03F360"/>
+    <token id="0000027EBD7FDA00" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="34" column="2" str="X" scope="0000027EBD03F360" type="name" varId="20" variable="0000027EBD77FFC0" astParent="0000027EBD7FD0A0" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD7FD0A0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="34" column="3" str="=" scope="0000027EBD03F360" type="op" isAssignmentOp="true" astOperand1="0000027EBD7FDA00" astOperand2="0000027EBD397020" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD7FD280" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="34" column="4" str="ReadComplex" scope="0000027EBD03F360" type="name" function="0000027EBD0AC3A0" astParent="0000027EBD397020"/>
+    <token id="0000027EBD397020" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="34" column="15" str="(" scope="0000027EBD03F360" link="0000027EBD397080" astParent="0000027EBD7FD0A0" astOperand1="0000027EBD7FD280" astOperand2="0000027EBD396EA0" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD396EA0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="34" column="16" str="&quot;X&quot;" scope="0000027EBD03F360" type="string" strlen="1" values="0000027EBD0ACF00" astParent="0000027EBD397020" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="0000027EBD397080" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="34" column="19" str=")" scope="0000027EBD03F360" link="0000027EBD397020"/>
+    <token id="0000027EBD3962A0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="34" column="20" str=";" scope="0000027EBD03F360"/>
+    <token id="0000027EBD396A80" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="35" column="2" str="Y" scope="0000027EBD03F360" type="name" varId="21" variable="0000027EBD77FB60" astParent="0000027EBD397200" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD397200" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="35" column="3" str="=" scope="0000027EBD03F360" type="op" isAssignmentOp="true" astOperand1="0000027EBD396A80" astOperand2="0000027EBD3963C0" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD396900" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="35" column="4" str="ReadComplex" scope="0000027EBD03F360" type="name" function="0000027EBD0AC3A0" astParent="0000027EBD3963C0"/>
+    <token id="0000027EBD3963C0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="35" column="15" str="(" scope="0000027EBD03F360" link="0000027EBD396D80" astParent="0000027EBD397200" astOperand1="0000027EBD396900" astOperand2="0000027EBD396480" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD396480" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="35" column="16" str="&quot;Y&quot;" scope="0000027EBD03F360" type="string" strlen="1" values="0000027EBD0ACC00" astParent="0000027EBD3963C0" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="0000027EBD396D80" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="35" column="19" str=")" scope="0000027EBD03F360" link="0000027EBD3963C0"/>
+    <token id="0000027EBD396E40" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="35" column="20" str=";" scope="0000027EBD03F360"/>
+    <token id="0000027EBD397800" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="36" column="2" str="Z" scope="0000027EBD03F360" type="name" varId="22" variable="0000027EBD780B20" astParent="0000027EBD3967E0" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD3967E0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="36" column="3" str="=" scope="0000027EBD03F360" type="op" isAssignmentOp="true" astOperand1="0000027EBD397800" astOperand2="0000027EBD396600" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD397440" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="36" column="4" str="Addcomplex" scope="0000027EBD03F360" type="name" function="0000027EBD0ABF40" astParent="0000027EBD396600"/>
+    <token id="0000027EBD396600" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="36" column="14" str="(" scope="0000027EBD03F360" link="0000027EBD396F00" astParent="0000027EBD3967E0" astOperand1="0000027EBD397440" astOperand2="0000027EBD396DE0" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD397860" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="36" column="15" str="X" scope="0000027EBD03F360" type="name" varId="20" variable="0000027EBD77FFC0" astParent="0000027EBD396DE0" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD396DE0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="36" column="16" str="," scope="0000027EBD03F360" astParent="0000027EBD396600" astOperand1="0000027EBD397860" astOperand2="0000027EBD396180"/>
+    <token id="0000027EBD396180" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="36" column="17" str="Y" scope="0000027EBD03F360" type="name" varId="21" variable="0000027EBD77FB60" astParent="0000027EBD396DE0" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD396F00" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="36" column="18" str=")" scope="0000027EBD03F360" link="0000027EBD396600"/>
+    <token id="0000027EBD397380" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="36" column="19" str=";" scope="0000027EBD03F360"/>
+    <token id="0000027EBD396840" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="37" column="2" str="printComplex" scope="0000027EBD03F360" type="name" function="0000027EBD0AC120" astParent="0000027EBD397320"/>
+    <token id="0000027EBD397320" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="37" column="14" str="(" scope="0000027EBD03F360" link="0000027EBD396C00" astOperand1="0000027EBD396840" astOperand2="0000027EBD3973E0" valueType-type="void" valueType-reference="None"/>
+    <token id="0000027EBD3968A0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="37" column="15" str="&quot;Z&quot;" scope="0000027EBD03F360" type="string" strlen="1" values="0000027EBD0ACDA0" astParent="0000027EBD3973E0" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="0000027EBD3973E0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="37" column="18" str="," scope="0000027EBD03F360" astParent="0000027EBD397320" astOperand1="0000027EBD3968A0" astOperand2="0000027EBD396CC0"/>
+    <token id="0000027EBD396CC0" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="37" column="19" str="Z" scope="0000027EBD03F360" type="name" varId="22" variable="0000027EBD780B20" astParent="0000027EBD3973E0" valueType-type="record" valueType-reference="None" valueType-typeScope="0000027EBD03F8B0"/>
+    <token id="0000027EBD396C00" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="37" column="20" str=")" scope="0000027EBD03F360" link="0000027EBD397320"/>
+    <token id="0000027EBD396300" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="37" column="21" str=";" scope="0000027EBD03F360"/>
+    <token id="0000027EBD396F60" file="C:/Users/nemad/Desktop/Embedded Systems/Mastering-Embedded-Systems/C Programming/Structure Assignment/Complex.c" linenr="38" column="1" str="}" scope="0000027EBD03F360" link="0000027EBD7FDDC0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0000027EBD03F140" type="Global">
+      <functionList>
+        <function id="0000027EBD0ABF40" tokenDef="0000027EBD12D930" name="Addcomplex" type="Function">
+          <arg nr="1" variable="0000027EBD77FE00"/>
+          <arg nr="2" variable="0000027EBD780340"/>
+        </function>
+        <function id="0000027EBD0AC3A0" tokenDef="0000027EBD5EE050" name="ReadComplex" type="Function">
+          <arg nr="1" variable="0000027EBD780500"/>
+        </function>
+        <function id="0000027EBD0AC120" tokenDef="0000027EBD7FCE10" name="printComplex" type="Function">
+          <arg nr="1" variable="0000027EBD7803B0"/>
+          <arg nr="2" variable="0000027EBD780570"/>
+        </function>
+        <function id="0000027EBD0AC4E0" tokenDef="0000027EBD7FD100" name="main" type="Function"/>
+      </functionList>
+    </scope>
+    <scope id="0000027EBD03F8B0" type="Struct" className="SComplex" bodyStart="0000027EBD12DE70" bodyEnd="0000027EBD12D8D0" nestedIn="0000027EBD03F140">
+      <varlist>
+        <var id="0000027EBD780AB0"/>
+        <var id="0000027EBD780260"/>
+      </varlist>
+    </scope>
+    <scope id="0000027EBD03FBE0" type="Function" className="Addcomplex" bodyStart="0000027EBD12D7B0" bodyEnd="0000027EBD5EDA50" nestedIn="0000027EBD03F140" function="0000027EBD0ABF40">
+      <varlist>
+        <var id="0000027EBD77FD20"/>
+      </varlist>
+    </scope>
+    <scope id="0000027EBD03F7A0" type="Function" className="ReadComplex" bodyStart="0000027EBD7FC330" bodyEnd="0000027EBD7FC6F0" nestedIn="0000027EBD03F140" function="0000027EBD0AC3A0">
+      <varlist>
+        <var id="0000027EBD780490"/>
+      </varlist>
+    </scope>
+    <scope id="0000027EBD03F250" type="Function" className="printComplex" bodyStart="0000027EBD7FDCA0" bodyEnd="0000027EBD7FD160" nestedIn="0000027EBD03F140" function="0000027EBD0AC120"/>
+    <scope id="0000027EBD03F360" type="Function" className="main" bodyStart="0000027EBD7FDDC0" bodyEnd="0000027EBD396F60" nestedIn="0000027EBD03F140" function="0000027EBD0AC4E0">
+      <varlist>
+        <var id="0000027EBD77FFC0"/>
+        <var id="0000027EBD77FB60"/>
+        <var id="0000027EBD780B20"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0000027EBD77FB60" nameToken="0000027EBD7FD820" typeStartToken="0000027EBD397140" typeEndToken="0000027EBD397140" access="Local" scope="0000027EBD03F360" constness="0" isArgument="false" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0000027EBD77FD20" nameToken="0000027EBD5ED330" typeStartToken="0000027EBD12D3F0" typeEndToken="0000027EBD12D3F0" access="Local" scope="0000027EBD03FBE0" constness="0" isArgument="false" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0000027EBD77FE00" nameToken="0000027EBD12DBD0" typeStartToken="0000027EBD12DCF0" typeEndToken="0000027EBD12DCF0" access="Argument" scope="0000027EBD03FBE0" constness="0" isArgument="true" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0000027EBD77FFC0" nameToken="0000027EBD7FD940" typeStartToken="0000027EBD7FD520" typeEndToken="0000027EBD7FD520" access="Local" scope="0000027EBD03F360" constness="0" isArgument="false" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0000027EBD780260" nameToken="0000027EBD12D2D0" typeStartToken="0000027EBD12D270" typeEndToken="0000027EBD12D270" access="Public" scope="0000027EBD03F8B0" constness="0" isArgument="false" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0000027EBD780340" nameToken="0000027EBD12DC90" typeStartToken="0000027EBD12DC30" typeEndToken="0000027EBD12DC30" access="Argument" scope="0000027EBD03FBE0" constness="0" isArgument="true" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0000027EBD7803B0" nameToken="0000027EBD7FD220" typeStartToken="0000027EBD7FC810" typeEndToken="0000027EBD7FC810" access="Argument" scope="0000027EBD03F250" constness="0" isArgument="true" isArray="true" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0000027EBD780490" nameToken="0000027EBD7FCB10" typeStartToken="0000027EBD7FC390" typeEndToken="0000027EBD7FC390" access="Local" scope="0000027EBD03F7A0" constness="0" isArgument="false" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0000027EBD780500" nameToken="0000027EBD5EDB10" typeStartToken="0000027EBD5EDBD0" typeEndToken="0000027EBD5EDBD0" access="Argument" scope="0000027EBD03F7A0" constness="0" isArgument="true" isArray="true" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0000027EBD780570" nameToken="0000027EBD7FD6A0" typeStartToken="0000027EBD7FD880" typeEndToken="0000027EBD7FD880" access="Argument" scope="0000027EBD03F250" constness="0" isArgument="true" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0000027EBD780AB0" nameToken="0000027EBD12D1B0" typeStartToken="0000027EBD12D450" typeEndToken="0000027EBD12D450" access="Public" scope="0000027EBD03F8B0" constness="0" isArgument="false" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0000027EBD780B20" nameToken="0000027EBD7FD9A0" typeStartToken="0000027EBD3970E0" typeEndToken="0000027EBD3970E0" access="Local" scope="0000027EBD03F360" constness="0" isArgument="false" isArray="false" isClass="true" isConst="false" isExtern="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0000027EBD0AD160">
+      <value uninit="1" known="true"/>
+    </values>
+    <values id="0000027EBD0ACFE0">
+      <value uninit="1" known="true"/>
+    </values>
+    <values id="0000027EBD0ACE80">
+      <value tokvalue="0000027EBD7FCE70" known="true"/>
+    </values>
+    <values id="0000027EBD0ACF60">
+      <value tokvalue="0000027EBD396EA0" possible="true"/>
+      <value tokvalue="0000027EBD396480" possible="true"/>
+    </values>
+    <values id="0000027EBD0ACCC0">
+      <value tokvalue="0000027EBD7FC210" known="true"/>
+    </values>
+    <values id="0000027EBD0ACB80">
+      <value lifetime="0000027EBD7FCBD0" possible="true"/>
+    </values>
+    <values id="0000027EBD0AD000">
+      <value uninit="1" known="true"/>
+    </values>
+    <values id="0000027EBD0AD1C0">
+      <value uninit="1" known="true"/>
+    </values>
+    <values id="0000027EBD0ACEA0">
+      <value lifetime="0000027EBD7FCC30" possible="true"/>
+    </values>
+    <values id="0000027EBD0AD020">
+      <value tokvalue="0000027EBD7FDB80" known="true"/>
+    </values>
+    <values id="0000027EBD0ACCE0">
+      <value tokvalue="0000027EBD3968A0" possible="true"/>
+    </values>
+    <values id="0000027EBD0ACF00">
+      <value tokvalue="0000027EBD396EA0" known="true"/>
+    </values>
+    <values id="0000027EBD0ACC00">
+      <value tokvalue="0000027EBD396480" known="true"/>
+    </values>
+    <values id="0000027EBD0ACDA0">
+      <value tokvalue="0000027EBD3968A0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>
